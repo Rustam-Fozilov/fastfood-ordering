@@ -2,21 +2,32 @@ html,
 body {
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
 }
 
-.header-home {
-    padding-bottom: 30px;
+.header-title {
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 
-#logo-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20px;
-    width: 100px;
+#bigTitle {
+    font-size: 34px;
+    text-align: center;
+    margin-top: 30px;
 }
 
-#main-menu {
+.header-description {
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#menu-items {
+    text-align: center;
+}
+
+#allProducts {
     text-align: center;
 }
 
@@ -28,7 +39,6 @@ body {
 }
 
 .menu-item-ul li a {
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height: 20px;
@@ -36,4 +46,163 @@ body {
     color: red;
     padding: 40px 15px 40px 15px;
     text-decoration: none;
+}
+
+#Dastavkatashkent {
+    font-size: 24px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.products li {
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.product-item {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+}
+
+.productImage {
+    text-decoration: none;
+    border-radius: 20px;
+    border: 1px solid #f4f4f4;
+    width: 300px;
+    height: 300px;
+    background: #fff;
+    padding: 0.23em;
+}
+
+.product-name {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.product-price {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.btn-addToCart {
+    cursor: pointer;
+    margin-top: 10px;
+    border: 1px solid #cccccc;
+    background: #fff;
+    width: 120px;
+    height: 40px;
+}
+
+.btn-addToCart:hover {
+    border: 1px solid #fff;
+    background: rgb(252, 99, 99);
+    color: #fff;
+}
+
+#titleBasketi {
+    font-weight: bold;
+    color: red;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 22px;
+}
+
+#basketi {
+    padding: 20px;
+    background: #f7f6f5;
+}
+
+#titleBurgeri {
+    font-weight: bold;
+    color: red;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 22px;
+}
+
+#burgeri {
+    padding: 20px;
+    background: #f7f6f5;
+}
+
+#titleTvisteri {
+    font-weight: bold;
+    color: red;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 22px;
+}
+
+#tvisteri {
+    padding: 20px;
+    background: #f7f6f5;
+}
+
+#titleKuritsa {
+    font-weight: bold;
+    color: red;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 22px;
+}
+
+#kuritsa {
+    padding: 20px;
+    background: #f7f6f5;
+}
+
+#titleFri {
+    font-weight: bold;
+    color: red;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 22px;
+}
+
+#fri {
+    padding: 20px;
+    background: #f7f6f5;
+}
+
+#titleSousi {
+    font-weight: bold;
+    color: red;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 22px;
+}
+
+#sousi {
+    padding: 20px;
+    background: #f7f6f5;
+}
+
+#titleNapitki {
+    font-weight: bold;
+    color: red;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 22px;
+}
+
+#napitki {
+    padding: 20px;
+    background: #f7f6f5;
+}
+
+#titleDeserti {
+    font-weight: bold;
+    color: red;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 22px;
+}
+
+#deserti {
+    padding: 20px;
+    background: #f7f6f5;
 }
