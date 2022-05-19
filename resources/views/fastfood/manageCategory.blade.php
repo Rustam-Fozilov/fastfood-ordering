@@ -9,7 +9,3 @@
     </div>
 </div>
 <!-- Main section ends here -->
-
-</body>
-
-</html>

@@ -8,6 +8,6 @@ class HomeController extends Controller
 {
     public function home(): \Illuminate\Contracts\View\Factory|\Illuminate\Contracts\View\View|\Illuminate\Contracts\Foundation\Application
     {
-        return view('kfc/home');
+        return view('fastfood/home');
     }
 }

@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.clearfix {
+    float: none;
+    clear: both;
+}
+
+.wrapper {
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.menu {
+    border-bottom: 1px solid black;
+}
+
+.menu ul {
+    list-style-type: none;
+}
+
+.menu ul li {
+    display: inline;
+    padding: 1%;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: red;
+}
+
+.main-content {
+    background-color: #f7f6f5;
+    padding: 3% 0;
+}
+
+.col-4 {
+    width: 18%;
+    margin: 1%;
+    background-color: white;
+    padding: 2%;
+    float: left;
+}

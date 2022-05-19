@@ -21,3 +21,7 @@ Route::get('/', function () {
 
 Route::get('/home', [HomeController::class, 'home']);
 Route::get('/admin', [AdminController::class, 'show']);
+Route::get("/manageAdmin", [AdminController::class, "manageAdmin"]);
+Route::get("/manageCategory", [AdminController::class, "manageCategory"]);
+Route::get("/manageFood", [AdminController::class, "manageFood"]);
+Route::get("/manageOrder", [AdminController::class, "manageOrder"]);
