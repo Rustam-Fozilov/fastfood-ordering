@@ -14,9 +14,8 @@
     <div id="header-wrapper">
         <div class="container">
             <div class="header-title">
-                <h1 id="bigTitle">FASTFOOD</h1>
+                <h1 id="bigTitle">FASTFOOD ZAKAZ</h1>
             </div>
-
             <div id="menu-items">
                 <ul class="menu-item-ul">
                     <!-- <li id="menu1"><a href="#titleBasketi">БАСКЕТЫ</a></li> -->
