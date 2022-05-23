@@ -25,3 +25,4 @@ Route::get("/manageAdmin", [AdminController::class, "manageAdmin"]);
 Route::get("/manageCategory", [AdminController::class, "manageCategory"]);
 Route::get("/manageFood", [AdminController::class, "manageFood"]);
 Route::get("/manageOrder", [AdminController::class, "manageOrder"]);
+Route::get("/MyCart", [AdminController::class, "MyCart"]);

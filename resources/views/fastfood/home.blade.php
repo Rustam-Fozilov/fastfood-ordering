@@ -26,6 +26,7 @@
                     <li id="menu6"><a href="#titleSousi">SOUSLAR</a></li>
                     <li id="menu7"><a href="#titleNapitki">ICHIMLIKLAR</a></li>
                     <li id="menu8"><a href="#titleDeserti">DESERT</a></li>
+                    <li id="savat"><a href="MyCart">SAVAT</a><span>0</span></li>
                 </ul>
 
                 <h1 id="Dastavkatashkent">TOSHKENT BO'YLAB YETKAZIB BERISH</h1>
@@ -43,8 +44,8 @@
                                 </div>
                                 <div class="productContent">
                                     <div class="product-name">Dabl Shefburger</div>
-                                    <div class="product-price">39,000.00 UZS</div>
-                                    <button class="btn-addToCart">Savatga</button>
+                                    <div class="product-price">39000</div>
+                                    <button class="btn-addToCart cart1">Savatga</button>
                                 </div>
                             </div>
                         </li>
@@ -56,8 +57,8 @@
                                 </div>
                                 <div class="productContent">
                                     <div class="product-name">Achchiq Shefburger</div>
-                                    <div class="product-price">26,000.00 UZS</div>
-                                    <button class="btn-addToCart">Savatga</button>
+                                    <div class="product-price">26000</div>
+                                    <button class="btn-addToCart cart2">Savatga</button>
                                 </div>
                             </div>
                         </li>
@@ -69,8 +70,8 @@
                                 </div>
                                 <div class="productContent">
                                     <div class="product-name">Chizburger</div>
-                                    <div class="product-price">22,000.00 UZS</div>
-                                    <button class="btn-addToCart">Savatga</button>
+                                    <div class="product-price">22000</div>
+                                    <button class="btn-addToCart cart3">Savatga</button>
                                 </div>
                             </div>
                         </li>
@@ -84,8 +85,8 @@
                                 </div>
                                 <div class="productContent">
                                     <div class="product-name">Chizburger DeLyuks</div>
-                                    <div class="product-price">26,000.00 UZS</div>
-                                    <button class="btn-addToCart">Savatga</button>
+                                    <div class="product-price">26000</div>
+                                    <button class="btn-addToCart cart4">Savatga</button>
                                 </div>
                             </div>
                         </li>
@@ -97,8 +98,8 @@
                                 </div>
                                 <div class="productContent">
                                     <div class="product-name">Shef Tauer</div>
-                                    <div class="product-price">32,000.00 UZS</div>
-                                    <button class="btn-addToCart">Savatga</button>
+                                    <div class="product-price">32000</div>
+                                    <button class="btn-addToCart cart5">Savatga</button>
                                 </div>
                             </div>
                         </li>
@@ -110,8 +111,8 @@
                                 </div>
                                 <div class="productContent">
                                     <div class="product-name">Shefburger</div>
-                                    <div class="product-price">26,000.00 UZS</div>
-                                    <button class="btn-addToCart">Savatga</button>
+                                    <div class="product-price">20000</div>
+                                    <button class="btn-addToCart cart6">Savatga</button>
                                 </div>
                             </div>
                         </li>
@@ -128,8 +129,8 @@
                                 </div>
                                 <div class="productContent">
                                     <div class="product-name">Longer</div>
-                                    <div class="product-price">17,000.00 UZS</div>
-                                    <button class="btn-addToCart">Savatga</button>
+                                    <div class="product-price">17000</div>
+                                    <button class="btn-addToCart cart7">Savatga</button>
                                 </div>
                             </div>
                         </li>
@@ -141,8 +142,8 @@
                                 </div>
                                 <div class="productContent">
                                     <div class="product-name">Tvister oddiy</div>
-                                    <div class="product-price">26,000.00 UZS</div>
-                                    <button class="btn-addToCart">Savatga</button>
+                                    <div class="product-price">26000</div>
+                                    <button class="btn-addToCart cart8">Savatga</button>
                                 </div>
                             </div>
                         </li>
@@ -154,8 +155,8 @@
                                 </div>
                                 <div class="productContent">
                                     <div class="product-name">Tvister junior</div>
-                                    <div class="product-price">18,000.00 UZS</div>
-                                    <button class="btn-addToCart">Savatga</button>
+                                    <div class="product-price">18000</div>
+                                    <button class="btn-addToCart cart9">Savatga</button>
                                 </div>
                             </div>
                         </li>
@@ -172,8 +173,8 @@
                                 </div>
                                 <div class="productContent">
                                     <div class="product-name">3ta Qanot</div>
-                                    <div class="product-price">23,000.00 UZS</div>
-                                    <button class="btn-addToCart">Savatga</button>
+                                    <div class="product-price">23000</div>
+                                    <button class="btn-addToCart cart10">Savatga</button>
                                 </div>
                             </div>
                         </li>
@@ -185,8 +186,8 @@
                                 </div>
                                 <div class="productContent">
                                     <div class="product-name">1ta Oyoq</div>
-                                    <div class="product-price">15,000.00 UZS</div>
-                                    <button class="btn-addToCart">Savatga</button>
+                                    <div class="product-price">15000</div>
+                                    <button class="btn-addToCart cart11">Savatga</button>
                                 </div>
                             </div>
                         </li>
@@ -198,8 +199,8 @@
                                 </div>
                                 <div class="productContent">
                                     <div class="product-name">2ta Oyoq</div>
-                                    <div class="product-price">25,000.00 UZS</div>
-                                    <button class="btn-addToCart">Savatga</button>
+                                    <div class="product-price">25000</div>
+                                    <button class="btn-addToCart cart12">Savatga</button>
                                 </div>
                             </div>
                         </li>
@@ -213,8 +214,8 @@
                                 </div>
                                 <div class="productContent">
                                     <div class="product-name">3ta Oyoq</div>
-                                    <div class="product-price">34,000.00 UZS</div>
-                                    <button class="btn-addToCart">Savatga</button>
+                                    <div class="product-price">34000</div>
+                                    <button class="btn-addToCart cart13">Savatga</button>
                                 </div>
                             </div>
                         </li>
@@ -226,8 +227,8 @@
                                 </div>
                                 <div class="productContent">
                                     <div class="product-name">3ta Striptsa</div>
-                                    <div class="product-price">24,000.00 UZS</div>
-                                    <button class="btn-addToCart">Savatga</button>
+                                    <div class="product-price">24000</div>
+                                    <button class="btn-addToCart cart14">Savatga</button>
                                 </div>
                             </div>
                         </li>
@@ -239,8 +240,8 @@
                                 </div>
                                 <div class="productContent">
                                     <div class="product-name">Achchiq Striptsa</div>
-                                    <div class="product-price">45,000.00 UZS</div>
-                                    <button class="btn-addToCart">Savatga</button>
+                                    <div class="product-price">45000</div>
+                                    <button class="btn-addToCart cart15">Savatga</button>
                                 </div>
                             </div>
                         </li>
@@ -257,8 +258,8 @@
                                 </div>
                                 <div class="productContent">
                                     <div class="product-name">Basket Fri</div>
-                                    <div class="product-price">26,000.00 UZS</div>
-                                    <button class="btn-addToCart">Savatga</button>
+                                    <div class="product-price">26000</div>
+                                    <button class="btn-addToCart cart16">Savatga</button>
                                 </div>
                             </div>
                         </li>
@@ -270,8 +271,8 @@
                                 </div>
                                 <div class="productContent">
                                     <div class="product-name">Little Fri</div>
-                                    <div class="product-price">14,000.00 UZS</div>
-                                    <button class="btn-addToCart">Savatga</button>
+                                    <div class="product-price">14000</div>
+                                    <button class="btn-addToCart cart17">Savatga</button>
                                 </div>
                             </div>
                         </li>
@@ -283,53 +284,12 @@
                                 </div>
                                 <div class="productContent">
                                     <div class="product-name">Standart Fri</div>
-                                    <div class="product-price">20,000.00 UZS</div>
-                                    <button class="btn-addToCart">Savatga</button>
+                                    <div class="product-price">20000</div>
+                                    <button class="btn-addToCart cart18">Savatga</button>
                                 </div>
                             </div>
                         </li>
                     </ul>
-
-                    <!-- <ul class="products">
-                        <li class="product-item">
-                            <div class="productInner">
-                                <div class="productImage">
-                                    <img src="img/post1.png" alt="post1">
-                                </div>
-                                <div class="productContent">
-                                    <div class="product-name">Баскет 10 ножек</div>
-                                    <div class="product-price">133,000.00 UZS</div>
-                                    <button class="btn-addToCart">Savatga</button>
-                                </div>
-                            </div>
-                        </li>
-
-                        <li class="product-item">
-                            <div class="productInner">
-                                <div class="productImage">
-                                    <img src="img/post1.png" alt="post1">
-                                </div>
-                                <div class="productContent">
-                                    <div class="product-name">Баскет 10 ножек</div>
-                                    <div class="product-price">133,000.00 UZS</div>
-                                    <button class="btn-addToCart">Savatga</button>
-                                </div>
-                            </div>
-                        </li>
-
-                        <li class="product-item">
-                            <div class="productInner">
-                                <div class="productImage">
-                                    <img src="img/post1.png" alt="post1">
-                                </div>
-                                <div class="productContent">
-                                    <div class="product-name">Баскет 10 ножек</div>
-                                    <div class="product-price">133,000.00 UZS</div>
-                                    <button class="btn-addToCart">Savatga</button>
-                                </div>
-                            </div>
-                        </li>
-                    </ul> -->
                 </div>
 
                 <h1 id="titleSousi">SOUSLAR</h1>
@@ -342,8 +302,8 @@
                                 </div>
                                 <div class="productContent">
                                     <div class="product-name">Tomatli Ketchup</div>
-                                    <div class="product-price">5,000.00 UZS</div>
-                                    <button class="btn-addToCart">Savatga</button>
+                                    <div class="product-price">5000</div>
+                                    <button class="btn-addToCart cart19">Savatga</button>
                                 </div>
                             </div>
                         </li>
@@ -355,8 +315,8 @@
                                 </div>
                                 <div class="productContent">
                                     <div class="product-name">Pishloqli sous</div>
-                                    <div class="product-price">5,000.00 UZS</div>
-                                    <button class="btn-addToCart">Savatga</button>
+                                    <div class="product-price">5000</div>
+                                    <button class="btn-addToCart cart20">Savatga</button>
                                 </div>
                             </div>
                         </li>
@@ -368,8 +328,8 @@
                                 </div>
                                 <div class="productContent">
                                     <div class="product-name">Chili Sous</div>
-                                    <div class="product-price">5,000.00 UZS</div>
-                                    <button class="btn-addToCart">Savatga</button>
+                                    <div class="product-price">5000</div>
+                                    <button class="btn-addToCart cart21">Savatga</button>
                                 </div>
                             </div>
                         </li>
@@ -386,8 +346,8 @@
                                 </div>
                                 <div class="productContent">
                                     <div class="product-name">Coca-cola 1.5L</div>
-                                    <div class="product-price">12,000.00 UZS</div>
-                                    <button class="btn-addToCart">Savatga</button>
+                                    <div class="product-price">12000</div>
+                                    <button class="btn-addToCart cart22">Savatga</button>
                                 </div>
                             </div>
                         </li>
@@ -399,8 +359,8 @@
                                 </div>
                                 <div class="productContent">
                                     <div class="product-name">Fanta 1.5L</div>
-                                    <div class="product-price">12,000.00 UZS</div>
-                                    <button class="btn-addToCart">Savatga</button>
+                                    <div class="product-price">12000</div>
+                                    <button class="btn-addToCart cart23">Savatga</button>
                                 </div>
                             </div>
                         </li>
@@ -412,8 +372,8 @@
                                 </div>
                                 <div class="productContent">
                                     <div class="product-name">Mineral suv 0.5L</div>
-                                    <div class="product-price">5,000.00 UZS</div>
-                                    <button class="btn-addToCart">Savatga</button>
+                                    <div class="product-price">5000</div>
+                                    <button class="btn-addToCart cart24">Savatga</button>
                                 </div>
                             </div>
                         </li>
@@ -427,8 +387,8 @@
                                 </div>
                                 <div class="productContent">
                                     <div class="product-name">Pepsi 1.5L</div>
-                                    <div class="product-price">12,000.00 UZS</div>
-                                    <button class="btn-addToCart">Savatga</button>
+                                    <div class="product-price">12000</div>
+                                    <button class="btn-addToCart cart25">Savatga</button>
                                 </div>
                             </div>
                         </li>
@@ -440,8 +400,8 @@
                                 </div>
                                 <div class="productContent">
                                     <div class="product-name">Apelsinli sok 1L</div>
-                                    <div class="product-price">7,000.00 UZS</div>
-                                    <button class="btn-addToCart">Savatga</button>
+                                    <div class="product-price">7000</div>
+                                    <button class="btn-addToCart cart26">Savatga</button>
                                 </div>
                             </div>
                         </li>
@@ -453,8 +413,8 @@
                                 </div>
                                 <div class="productContent">
                                     <div class="product-name">Olmali sok 1L</div>
-                                    <div class="product-price">7,000.00 UZS</div>
-                                    <button class="btn-addToCart">Savatga</button>
+                                    <div class="product-price">7000</div>
+                                    <button class="btn-addToCart cart27">Savatga</button>
                                 </div>
                             </div>
                         </li>
@@ -471,8 +431,8 @@
                                 </div>
                                 <div class="productContent">
                                     <div class="product-name">Yong'oqli donat</div>
-                                    <div class="product-price">17,000.00 UZS</div>
-                                    <button class="btn-addToCart">Savatga</button>
+                                    <div class="product-price">17000</div>
+                                    <button class="btn-addToCart cart28">Savatga</button>
                                 </div>
                             </div>
                         </li>
@@ -484,8 +444,8 @@
                                 </div>
                                 <div class="productContent">
                                     <div class="product-name">Olmali donat</div>
-                                    <div class="product-price">16,000.00 UZS</div>
-                                    <button class="btn-addToCart">Savatga</button>
+                                    <div class="product-price">16000</div>
+                                    <button class="btn-addToCart cart29">Savatga</button>
                                 </div>
                             </div>
                         </li>
@@ -497,8 +457,8 @@
                                 </div>
                                 <div class="productContent">
                                     <div class="product-name">Shokoladli donat</div>
-                                    <div class="product-price">15,000.00 UZS</div>
-                                    <button class="btn-addToCart">Savatga</button>
+                                    <div class="product-price">15000</div>
+                                    <button class="btn-addToCart cart30">Savatga</button>
                                 </div>
                             </div>
                         </li>
@@ -508,6 +468,8 @@
 
         </div>
     </div>
+
+    <script src="js/main.js"></script>
 
 </body>
 
