@@ -30,9 +30,4 @@ class AdminController extends Controller
     {
         return view('fastfood/manageOrder');
     }
-
-    public function MyCart()
-    {
-        return view('fastfood/mycart');
-    }
 }

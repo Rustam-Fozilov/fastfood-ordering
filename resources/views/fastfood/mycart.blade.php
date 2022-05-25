@@ -5,12 +5,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="csrf" content="{{ csrf_token() }}">
     <link rel="stylesheet" href="css/mycart.css">
     <title>Document</title>
 </head>
 
 <body>
 
+@section('content')
+
+{{-- KEREMAS ELEMENTLA START --}}
     <div class="invisible">
         <li id="savat"><a href="MyCart">SAVAT</a><span>0</span></li>
 
@@ -445,6 +449,7 @@
             </ul>
         </div>
     </div>
+{{-- KEREMAS ELEMENTLA END --}}
 
     <div class="products-container">
         <div class="product-header">
@@ -453,14 +458,17 @@
             <h5 class="quantity">SONI</h5>
             <h5 class="total">JAMI</h5>
         </div>
-        <div class="products2">
 
-        </div>
+        <form method="post" action="/storeOrder">
+            @csrf
+            <div class="products2">
+
+            </div>
+            <button type="submit" onclick="event.preventDefault(); storeOrder()"  class="btn-submit">OK</button>
+        </form>
     </div>
 
     <script src="js/main.js"></script>
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 
 </html>

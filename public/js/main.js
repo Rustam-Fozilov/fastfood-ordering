@@ -3,6 +3,11 @@ let productsname = document.querySelectorAll('.product-name');
 let productsPrice = document.querySelectorAll('.product-price');
 let productsImage = document.querySelectorAll('.productImage');
 
+let name;
+let inCart;
+let price;
+let total;
+
 
 let products = []
 
@@ -98,11 +103,11 @@ function displayCart() {
             productsContainer.innerHTML += `
                 <div class="product">
                     <img src=${item.tag}>
-                    <span>${item.name}</span>
+                    <span class="orderName">${item.name}</span>
                 </div>
                 <div class="price2">${item.price}</div>
                 <div class="quantity2">
-                    <span>${item.inCart}</span>
+                    <span class="orderInCart">${item.inCart}</span>
                 </div>
                 <div class="total2">${item.inCart * item.price}</div>
             `;
@@ -118,6 +123,32 @@ function displayCart() {
                 </h4>
             </div>`;
     }
+}
+
+function storeOrder() {
+    let name = document.getElementsByClassName('orderName');
+    let price = document.getElementsByClassName('price2');
+    let inCart = document.getElementsByClassName('orderInCart');
+    let total = document.getElementsByClassName('total2');
+
+    let formData = new FormData;
+
+    for (let i = 0; i < name.length; i++) {
+        formData.append('name', name.item(i).textContent);
+        formData.append('price', price.item(i).textContent);
+    }
+
+    fetch('/storeOrder', {
+        method: "POST",
+        body: formData,
+        headers: {
+            "X-CSRF-TOKEN": document.querySelector('meta[name = "csrf"]').getAttribute("content")
+        }
+    })
+
+
+    // console.log("bajarildi");
+
 }
 
 
