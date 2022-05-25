@@ -1,14 +1,17 @@
 let carts = document.querySelectorAll('.btn-addToCart');
-let productsName = document.querySelectorAll('.product-name');
+let productsname = document.querySelectorAll('.product-name');
 let productsPrice = document.querySelectorAll('.product-price');
+let productsImage = document.querySelectorAll('.productImage');
+
 
 let products = []
 
-for (let i = 0; i < productsName.length; i++) {
+for (let i = 0; i < productsname.length; i++) {
     products.push(
         {
-            name: productsName[i].textContent,
+            name: productsname[i].textContent,
             price: parseInt(productsPrice[i].textContent),
+            tag: productsImage[i].getElementsByTagName('img').item('src').src,
             inCart: 0
         }
     )
@@ -61,6 +64,8 @@ function setItems(product) {
     localStorage.setItem('productsInCart', JSON.stringify(cartItems));
 }
 
+console.log(products.tag);
+
 function onLoadCartNumbers() {
     let productNumbers = localStorage.getItem('cartNumbers');
 
@@ -82,8 +87,39 @@ function totalCost(product) {
 
 function displayCart() {
     let cartItems = localStorage.getItem("productsInCart");
-    cartItems = JSON.parse(cartItems)
+    let cartCost = localStorage.getItem('totalCost')
+    cartItems = JSON.parse(cartItems);
+    let productsContainer = document.querySelector(".products2");
+
+
+    if (cartItems && productsContainer) {
+        productsContainer.innerHTML = '';
+        Object.values(cartItems).map(item => {
+            productsContainer.innerHTML += `
+                <div class="product">
+                    <img src=${item.tag}>
+                    <span>${item.name}</span>
+                </div>
+                <div class="price2">${item.price}</div>
+                <div class="quantity2">
+                    <span>${item.inCart}</span>
+                </div>
+                <div class="total2">${item.inCart * item.price}</div>
+            `;
+        });
+
+        productsContainer.innerHTML += `
+            <div class="basketTotalContainer">
+                <h4 class="basketTotalTitle">
+                    Umumiy narxi
+                </h4>
+                <h4 class="basketTotal">
+                    ${cartCost}
+                </h4>
+            </div>`;
+    }
 }
 
-displayCart();
+
 onLoadCartNumbers();
+displayCart();
